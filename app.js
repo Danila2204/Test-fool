@@ -18,7 +18,9 @@ falseButton.addEventListener("mousemove", () => {
 })
 
 falseButton.addEventListener("click", () => {
+    title.textContent = "Ответ неправильный)).";
+
     let audio = new Audio();
-    audio.src = "./no-please.mp3";
+    audio.src = "./нет.mp3";
     audio.autoplay = true;
 })
