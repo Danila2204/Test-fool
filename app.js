@@ -9,7 +9,7 @@ trueButton.addEventListener("click", () => {
     title.textContent = "Так и знал)).";    
 })
 
-falseButton.addEventListener("mousemove", () => {
+falseButton.addEventListener("mouseover", () => {
     bodyStyle = getComputedStyle(document.body);
 
     falseButton.style.position = "absolute";
